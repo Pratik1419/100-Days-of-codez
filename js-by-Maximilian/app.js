@@ -67,3 +67,11 @@ let para = document.querySelector("p");
 
 para.append(newElement);
 console.dir("newElement");
+
+
+// How to delete a elements?
+let delteelement = document.querySelector("h1");
+delteelement.remove();
+
+// Move a elements
+paragraph.parentElement.append(paragraph);

@@ -60,18 +60,18 @@ console.dir(paragraph);
 paragraph.textContent = "This is some random text";
 
 // Create the new element.
-let newElement = document.createElement("a");
-newElement.href = "https://facebook.com";
-newElement.textContent = "Dive into facebook";
-let para = document.querySelector("p");
+// let newElement = document.createElement("a");
+// newElement.href = "https://facebook.com";
+// newElement.textContent = "Dive into facebook";
+// let para = document.querySelector("p");
 
-para.append(newElement);
-console.dir("newElement");
+// para.append(newElement);
+// console.dir("newElement");
 
 
 // How to delete a elements?
-let delteelement = document.querySelector("h1");
-delteelement.remove();
+// let delteelement = document.querySelector("h1");
+// delteelement.remove();
 
 // Move a elements
-paragraph.parentElement.append(paragraph);
+// paragraph.parentElement.append(paragraph);

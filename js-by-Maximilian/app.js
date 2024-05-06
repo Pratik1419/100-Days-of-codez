@@ -75,3 +75,6 @@ paragraph.textContent = "This is some random text";
 
 // Move a elements
 // paragraph.parentElement.append(paragraph);
+
+
+

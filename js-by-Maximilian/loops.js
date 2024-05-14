@@ -17,5 +17,7 @@ for (const key in loggedId ) {
 let isFinished = false;
 
 while (!isFinished) {
-    confirm("Do you want to quit")   //By using confirm it will gives us the result with yes/no value.
+    isFinished = confirm("Do you want to quit")   //By using confirm it will gives us the result with yes/no value.
 }
+
+console.log('done!');
